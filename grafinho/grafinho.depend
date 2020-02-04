@@ -2,3 +2,7 @@
 1579813900 source:/home/guidine/cplusplus/grafinho/main.cpp
 	<iostream>
 
+1579821177 source:/home/guidine/grafinho/grafinho/main.cpp
+	<iostream>
+	<Grafo.h>
+

@@ -27,11 +27,23 @@ using namespace std;
 
 class Grafo{
 
-    public:
-        Grafo();
-        ~Grafo();
-        int size() const;
+public:
+    Grafo Grafo(int vertice);
+    Grafo ~Grafo();
+    Grafo largura();
+    Grafo profundidade();
+    Grafo fortementeConexas();
+    Grafo ordenacaoTopologica();
+    Grafo dijkstra();
+    Grafo floyd();
+    Grafo prim();
+    Grafo kruskal();
+    Grafo fechoTriadico();
+    int size() const;
+    void adicionaVertice();
 
-    private:
 
+private:
+    int vertice;
+    list<int> *adjacencia;
 };

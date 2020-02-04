@@ -32,10 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Aresta.h" />
 		<Unit filename="Grafo.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Grafo.h" />
+		<Unit filename="No.cpp" />
+		<Unit filename="No.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />
